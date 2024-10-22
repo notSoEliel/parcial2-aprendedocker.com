@@ -127,6 +127,8 @@ body {
     font-weight: 700;
     font-size: 1.4em;
     border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 #hbtn-1 {
@@ -134,8 +136,17 @@ body {
     color: white;
 }
 
+#hbtn-1:hover {
+    background-color: #0656b8
+}
+
 #hbtn-2 {
+    background-color: white;
     color: #13151A;
+}
+
+#hbtn-2:hover {
+    background-color: #dbdbdb;
 }
 
 .docker-color-text {
@@ -272,7 +283,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
-    margin-bottom: 40px;
+    margin: 0px 60px 40px 60px;
 }
 
 /* Course Card */
@@ -341,6 +352,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
+    margin: 0px 60px 40px 60px;
 }
 
 /* Resource Card */
